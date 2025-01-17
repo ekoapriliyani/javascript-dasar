@@ -29,7 +29,19 @@
 // console.log(arr);
 
 // 3. unshift & shift
+// var arr = ["Eko", "Apriliyani", "Maziyyatun", "Nisa"];
+// arr.unshift("Mareko", "Doddy");
+// arr.shift();
+// console.log(arr);
+
+// 4. splice
+// var arr = ["Eko", "Apriliyani", "Maziyyatun", "Nisa"];
+// splice(indexAwal, mauDihapusBerapa, elemenBaru1, elemenBaru2, ...)
+// arr.splice(2, 0, 'Intan');
+// console.log(arr.join(' - '));
+
+// 5. slice
+// slice(awal, akhir)
 var arr = ["Eko", "Apriliyani", "Maziyyatun", "Nisa"];
-arr.unshift("Mareko", "Doddy");
-arr.shift();
-console.log(arr);
+var arr2 = arr.slice(1,3);
+console.log(arr2.join(' - '));
