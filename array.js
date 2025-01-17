@@ -68,12 +68,26 @@
 
 
 // 8. sort
-var angka = [1,2,3,4,5,6,2,1];
-angka.sort();
-console.log(angka);
+// var angka = [1,2,3,4,5,6,2,1];
+// angka.sort();
+// console.log(angka);
 
-var angka2 = [2,3,10,1,20,5,2,6,7,8];
-angka2.sort(function(a,b){
-    return a-b;
+// var angka2 = [2,3,10,1,20,5,2,6,7,8];
+// angka2.sort(function(a,b){
+//     return a-b;
+// });
+// console.log(angka2.join(' - '));
+
+// 9. filter
+// var angka = [2,3,10,1,20,5,2,6,7,8];
+// var angka2 = angka.filter(function(x){
+//     return x > 5;
+// });
+// console.log(angka2.join(' - '));
+
+// 10. find
+var angka = [2,3,10,1,20,5,2,6,7,8];
+var angka2 = angka.find(function(x){
+    return x > 5;
 });
-console.log(angka2.join(' - '));
+console.log(angka2);
